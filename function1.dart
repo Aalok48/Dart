@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   int length = 10, breadth = 5, area;
   area = find_area(length, breadth);
