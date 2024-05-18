@@ -4,7 +4,7 @@ void main() {
   try {
     depositmoney(-69);
   } catch (e) {
-    print(e.errormessage());
+    print(e);
   }
 }
 
