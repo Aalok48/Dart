@@ -11,7 +11,7 @@ void main() {
   try {
     int result = 12 ~/ 0;
     print(result);
-  } on IntegerDivisionByZeroException {
+  } on UnsupportedError {
     print("Cannot divide by zero");
   }
 
