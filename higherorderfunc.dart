@@ -3,8 +3,6 @@
 // 2. return a function
 // 3. do both
 
-// ignore_for_file: unused_element
-
 void main() {
   Function addtwonumber = (int a, int b) => a + b;
   someotherfunction("Hello", addtwonumber);
